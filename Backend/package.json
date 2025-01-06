@@ -1,0 +1,16 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "Vehicle tracking system backend",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.21.2",
+        "mongoose": "^7.3.1",
+        "twilio": "^5.4.0"
+    }
+}
